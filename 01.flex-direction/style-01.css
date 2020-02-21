@@ -1,0 +1,29 @@
+.container {
+    /* 
+    flex-direction: row; 
+    --
+    default direction
+    main axis goes from left to rigth
+    */
+    
+    /**
+    flex-direction: column; 
+    --
+    main axis goes from top to bottom
+    */
+
+    /* 
+    flex-direction: row-reverse; 
+    --
+    default direction
+    main axis goes from right to left
+    */
+
+    /* 
+    flex-direction: column-reverse; 
+    --
+    default direction
+    main axis goes from bottom to top
+    */
+    flex-direction: column;
+}
