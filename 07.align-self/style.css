@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.box {
+    width: 33.33%;
+}
+
+.box2 {
+    padding-bottom: 200px;
+}
+
+.box6{
+    padding-bottom: 0;
+}
+
+.box9 {
+    padding-bottom: 50px;
+
+    /* Overrides 'align-items: flex-start' for this element*/
+    
+    /* align-self: stretch; */
+
+    /* align-self: center; */
+
+    /* align-self: flex-start; */
+    
+    /* align-self: baseline; */
+    
+    align-self: flex-end;
+}
