@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    height: inherit;
+
+    /* Elements alignment in the main-axis */
+    
+    /* Default: At the beginning */
+    /* justify-content: flex-start; */
+
+    /* At the end */
+    /* justify-content: flex-end; */
+
+    /* Centered */
+    /* justify-content: center; */
+
+    /* The free space is placed between the elements */
+    /* justify-content: space-between; */
+
+    /* The free space is located between, at the beginning and at the end*/
+    justify-content: space-around;
+    
+    /* Example when main-axis goes from top to bottom: We need to set the height */
+    /* min-height: 200vh;
+    flex-direction: column; */
+}
