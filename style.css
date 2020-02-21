@@ -48,5 +48,4 @@
 .container {
     display: flex;
     border: 10px solid pink;
-    height: 100vh;
 }

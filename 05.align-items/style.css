@@ -1,0 +1,38 @@
+.container {
+    /* The container needs full height to center the items*/
+    height: 100vh;
+
+    /* Elements alignment in the cross-axis */
+    
+    /* default */
+    /* align-items: stretch; */
+
+    /* align-items: flex-start; */
+    
+    /* align-items: center; */
+    
+    /* align-items: flex-end; */
+
+    /* Aligns the text of the elements */
+    align-items: baseline;
+
+    /* Sample with column direction*/
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.box1 {
+    font-size: 30px;
+}
+
+.box4 {
+    font-size: 150px;
+}
+
+.box6 {
+    font-size: 15px;
+}
+
+.box9 {
+    font-size: 200px;
+}
