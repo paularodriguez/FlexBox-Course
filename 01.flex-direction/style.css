@@ -25,5 +25,5 @@
     default direction
     main axis goes from bottom to top
     */
-    flex-direction: column;
+    flex-direction: row;
 }

@@ -1,0 +1,17 @@
+.container {
+    /* flex-wrap: nowrap; */
+
+    flex-wrap: wrap;
+    /*
+    If the elements don't have enough space, they breaks to the next line
+    */
+
+    /* flex-wrap: wrap-reverse; */
+    /**
+    The cross-axis direction changes from top -> bottom to bottom -> top
+    */
+}
+
+.box {
+    width: 300px;
+}
