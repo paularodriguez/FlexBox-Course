@@ -1,0 +1,31 @@
+/* flex-grow: 1; */
+
+/* How to divide extra space*/
+/* flex-grow: 1; */
+
+/* how much the flex item will shrink relative to the rest of the flex items in the flex container 
+when there isn't enough space on the row */
+/* flex-shrink: 1; */
+
+/* flex: 1 is the same than previous properties */
+
+.box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    display: none;
+}
+
+.box1{
+    /* specifies the initial length of a flexible item */
+    /* flex-basis: 400px;
+    flex-grow: 10;
+    flex-shrink: 5; */
+
+    flex: 10 5 400px;
+}
+
+.box2{
+    /* specifies the initial length of a flexible item */
+    /* flex-basis: 400px;
+    flex-grow: 1; */
+
+    flex: 1 1 400px;
+}
