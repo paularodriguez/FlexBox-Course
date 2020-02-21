@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: inherit;
+}
+
+.box {
+    flex: 1;
+}
+
+/* Deffault order for everything is zero */
+
+.box3 {
+    order: 2;
+}
+
+.box7 {
+    order: 1;
+}
+
+/* Negative values also work */
+.box8 {
+    order: -1;
+}
