@@ -1,0 +1,9 @@
+.box {
+    /* All elements have the same size: extra space is divided up proportionately  */
+    flex: 1;
+}
+
+.box2 {
+    /* If there are extra space, this box should have the double amount of space that the others*/
+    flex: 2;
+}
