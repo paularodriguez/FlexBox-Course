@@ -1,0 +1,22 @@
+.box7, .box8, .box9, .box10 {
+    display: none;
+}
+
+.container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.box3 {
+    flex-grow: 5;
+}
+
+.box4 {
+    flex-basis: 100px;
+}
